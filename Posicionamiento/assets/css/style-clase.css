@@ -1,0 +1,52 @@
+p {
+    width:50%;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/*div*/
+.menu {
+    background-color: #000;
+    color: #fff;
+    line-height: 50px;
+}
+.menu li{
+    display: inline-block;
+}
+.menu a {
+    text-decoration: none;
+    color:#fff;
+}
+.menu a:hover {
+    color:orange;
+}
+
+.flotante {
+    width:33%;
+    float:left;
+    
+}
+.flotante i {
+    display: block;
+    text-align: center;
+}
+.padre {
+    background-color:bisque;
+    display: flow-root;
+}
+.gallery {
+    padding: 50px 100px;
+}
+.photo {
+    display: inline-block;
+    width:30%;
+    border: 1px;
+
+}
+.photo img {
+    width: 100%;
+}
+.imagenflotante {
+    float:left;
+}
